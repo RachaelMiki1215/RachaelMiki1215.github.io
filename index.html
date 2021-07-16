@@ -1,22 +1,64 @@
 <!DOCTYPE html>
 <head>
     <style>
-        .navbar {
+
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #424242;
+        }
+
+        div {
+            vertical-align: top;
+            margin-top: 0%;
+        }
+
+        .topbar {
             overflow: hidden;
-            background-color: gray;
             position: fixed;
             top: 0;
+            left: 0;
             width: 100%;
+            background-color: #FFB1AE;
+            color: #424242;
         }
+
+        .topbar a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #424242;
+            padding: 14px 16px;
+        }
+
+        .topbar a:hover {
+            background-color: #424242;
+            color: #FFB1AE;
+        }
+
+        .headerbar {
+            font-size: large;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            font-size: large;
+        }
+
     </style>
 </head>
 <html>
     <body>
-        <div class="navbar">
-            <a>Home</a>
-            <a>Works</a>
-            <a>Contact</a>
-            <a>About</a>
+        <div class="topbar">
+            <div class="headerbar">
+                <h1>
+                    <a href="">>ReMi</a>
+                </h1>
+            </div>
+            <div class="navbar">
+                <a href="">Works</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </div>
         </div>
     </body>
 </html>
